@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: InkFree;
+    transition: 0.3s;
+}
+
+body{
+    background-color: #8385AF;
+    overflow: hidden
+}
+
+@font-face {
+    font-family: InkFree;
+    src: url(fonts/Inkfree.ttf);
+}
+
+.poster{
+  position: absolute;
+  width: 931px;
+  height: 970px;
+  object-fit: cover;
+  display: flex;
+  box-shadow: 20px 20px 100px black;
+  background-color: gray;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  padding-bottom: 5px;
+}
+
+.info-panel{
+  position: absolute;
+  width: 900px;
+  height: 520px;
+  object-fit: cover;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+  border-radius: 30px;
+  background-color: #382e5044;
+  margin-left: 1000px;
+  justify-content: center;
+  outline-style: solid;
+  outline-color: rgba(82, 76, 158, 0.625);
+  outline-width: 2px;
+}
+
+.info{
+   position: relative;
+   left: 190px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   color: #ffffff; 
+  
+}
+
+.character-info{
+  position: relative;
+  left: -390px;
+}
+
+.design-info{
+  position: relative;
+  left: -390px;
+}
+
+.line1{
+    width: 155px;
+    border-radius: 1px;
+    border-style: dashed;
+    color: white;
+    position: relative;
+    left: -390px;
+}
+
+.line2{
+    width: 260px;
+    border-radius: 1px;
+    border-style: dashed;
+    color: white;
+    position: relative;
+    left: -390px;
+}
+
+.warning-info{
+  position: relative;
+  left: -390px;
+}
+
+.more-panel{
+  position: relative;
+  width: 130px;
+  height: 60px;
+  object-fit: cover;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+  border-radius: 30px;
+  background-color: #382e5044;
+  left: 208px;
+  outline-style: solid;
+  outline-color: rgba(82, 76, 158, 0.625);
+  outline-width: 2px;
+}
+
+.more-text{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #ffffff; 
+    position: relative;
+    left: 28px;
+    top: 10px;
+    font-size: 34px;
+}
+
+.more-panel:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.sections-panel{
+  position: absolute;
+  user-select: none;
+  width: 900px;
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+  border-radius: 30px;
+  background-color: #382e5044;
+  margin-left: 1000px;
+  margin-top: 555px;
+  justify-content: center;
+  outline-style: solid;
+  outline-color: rgba(82, 76, 158, 0.625);
+  outline-width: 2px;
+}
+
+.section-text{
+   position: relative;
+   left: 370px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   color: #ffffff; 
+   font-size: 34px;
+}
+
+.t-freddy-panel{
+    position: relative;
+    width: 270px;
+    height: 340px;
+    border-radius: 30px;
+    background-color: #382e5044;
+    top: 45px;
+    right: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+    outline-style: solid;
+    outline-color: rgba(82, 76, 158, 0.625);
+    outline-width: 2px;
+}
+
+.t-chica-panel{
+    position: relative;
+    width: 270px;
+    height: 340px;
+    border-radius: 30px;
+    background-color: #382e5044;
+    top: 45px;
+    right: 75px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+    outline-style: solid;
+    outline-color: rgba(82, 76, 158, 0.625);
+    outline-width: 2px;
+}
+
+.t-foxy-panel{
+    position: relative;
+    width: 270px;
+    height: 340px;
+    border-radius: 30px;
+    background-color: #382e5044;
+    top: 45px;
+    right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.315);
+    outline-style: solid;
+    outline-color: rgba(82, 76, 158, 0.625);
+    outline-width: 2px;
+}
+
+.t-freddy-panel:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.t-chica-panel:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.t-foxy-panel:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.10);
+}
